@@ -134,7 +134,7 @@ nav{
     position: absolute;
     z-index: 2;
     left: 0;
-    animation: fadein 1s ease-in;
+    animation: fadein 1s 50ms ease-in backwards;
 }
 
 @keyframes fadein{
