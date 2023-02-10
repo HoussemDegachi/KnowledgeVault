@@ -19,5 +19,26 @@ function setDaysLeft(){
     daysEl.innerHTML = "Up to 80% discount | Ends in "+ daysLeft +" Days"
 }
 
+$(".iman__image").click(function() {
+  $(".selected").removeClass("selected")
+  $(".iman").addClass("selected") 
+})
+
+$(".grant__image").click(function() {
+  $(".selected").removeClass("selected")
+  $(".grant").addClass("selected") 
+})
+
+$(".sebastian__image").click(function() {
+  $(".selected").removeClass("selected")
+  $(".sebastian").addClass("selected") 
+})
+
+$(".other__image").click(function() {
+  $(".selected").removeClass("selected")
+  $(".other").addClass("selected") 
+})
 
 setDaysLeft()
+
+
