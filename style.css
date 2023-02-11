@@ -864,6 +864,14 @@ footer{
     .footer-copyright{
         width: 80%;
     }
+
+    .topics-description{
+        display: none;
+    }
+
+    .table-block{
+        width: 60%;
+    }
 }
 
 /*
