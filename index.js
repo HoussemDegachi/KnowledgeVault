@@ -1,4 +1,4 @@
-const lastDay = new Date(2023 , 1 , 17)
+const lastDay = new Date(2023 , 2 , 10)
 const today = new Date()
 const daysLeft = ~~((lastDay - today) / (1000*60*60*24))
 const hiddenEl = document.querySelectorAll(".hidden")
